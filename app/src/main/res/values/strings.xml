@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General strings -->
+    <string name="app_name">IPC-m (v.1)</string>
+    
+    <!-- Dialog Buttons -->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_yes">Da</string>
+    <string name="dialog_no">Nu</string>
+    <string name="dialog_browse">. . .</string>
+    <string name="dialog_cancel">Anulează</string>
+    <string name="dialog_next">Înainte</string>
+    <string name="dialog_close">Închide</string>
+    <string name="dialog_menu">Meniu</string>
+    <string name="dialog_find">Căutare</string>
+    <string name="dialog_info">Informația</string>
+    <string name="dialog_error">Greșala!</string>
+    <string name="dialog_attention">Atenție!</string>
+	
+    <!-- Main - Keyboard Buttons -->
+    <string name="main_keyboard_1">1</string>
+    <string name="main_keyboard_2">2</string>
+    <string name="main_keyboard_3">3</string>
+    <string name="main_keyboard_4">4</string>
+    <string name="main_keyboard_5">5</string>
+    <string name="main_keyboard_6">6</string>
+    <string name="main_keyboard_7">7</string>
+    <string name="main_keyboard_8">8</string>
+    <string name="main_keyboard_9">9</string>
+    <string name="main_keyboard_0">0</string>
+    <string name="main_keyboard_dot">.</string>
+    <string name="main_keyboard_back">&lt;</string>
+    <string name="main_keyboard_up">Asortiment precedent</string>
+    <string name="main_keyboard_pageup">Produs precedent</string>
+    <string name="main_keyboard_down">Asortiment următor</string>
+    <string name="main_keyboard_pagedown">Produs următor</string>
+    <string name="main_keyboard_comment">Comentariu</string>
+	
+    <!-- Main - Product Screen -->
+    <string name="main_default_code">Cod</string>
+    <string name="main_default_text">Denumire</string>
+    <string name="main_default_reg_date">01.01.2012</string>
+    <string name="main_default_username">Utilizator</string>
+    <string name="main_default_unit_name">Alegeți unitatea statistică</string>
+    <string name="main_default_product_code">00000000</string>
+    <string name="main_default_product_name">Produs</string>
+    <string name="main_default_mu_name">(1 buc.)</string>
+    <string name="main_default_mod_date">01.01.2012 01:01:01</string>
+    <string name="main_default_product_price">0</string>
+    <string name="main_comment_status1">(început)</string>
+    <string name="main_comment_status2">(sfîrșit)</string>
+    <string name="main_comment_status3">(lipsește)</string>
+    <string name="main_comment_status3_count">0</string>
+    <string name="main_comment_status4">(nou)</string>
+    <string name="main_comment_status5">(exclus)</string>
+    <string name="main_comment_status6">(calitate)</string>
+    <string name="main_filter_active">Toate produse</string>
+    <string name="main_filter_remained">Necompletate</string>
+    <string name="main_filter_errors">Eronate</string>
+    <string name="main_sort_title">Sortare după:</string>
+    <string-array name="main_sort_title_list">
+        <item>Cod</item>
+        <item>Data</item>
+        <item>Denumire</item>
+    </string-array>
+
+    <!-- Main - Dialogs Labels -->
+    <string name="main_dialog_undef_user_message">Aplicația va fi inchisă.\nDatele utilizatorului nu a fost găsite.\nContactați conducatorul pentru instrucțiuni detailate.</string>
+    <string name="main_label_save_result_big_variaty">Variația prețului este semnificativă.\nAre caz schimb de calitate a produsului?</string>
+    <string name="main_label_save_result_ok">Datele a fost salvate</string>
+    <string name="main_label_start_of_list">Început de lista</string>
+    <string name="main_label_end_of_list">Sfirșit de lista</string>
+    <string name="main_label_find_code">Caută după cod</string>
+    <string name="main_label_find_name">Caută după denumire</string>
+    <string name="main_label_find_code_hint">cod</string>
+    <string name="main_label_find_name_hint">denumire</string>
+    <string name="main_label_find_result_ok">A fost găsit un produs</string>
+    <string name="main_label_find_result_no">Nici-un produs nu a fost găsit</string>
+    <string name="main_label_comment_no_item">Nu ați ales nici un produs pentru comentariu</string>
+    <string name="main_label_assortment_mod_no_item">Nu ați ales nici un sortiment pentru modificare</string>
+    <string name="main_label_assortment_delete_no_item">Nu ați ales nici un sortiment pentru eliminare</string>
+    <string name="main_label_assortment_delete_has_data">Sortimetul nu poate fi șters, conține date</string>
+    <string name="main_label_assortment_delete_confirm">Sigur doriți să ștergeți sortiment</string>
+    <string name="main_label_period_copy_previous_period">Luna selectată nu conține date.\nDoriți copierea datelor din luna precedentă?</string>
+
+    <!-- Dialog Import Labels -->
+    <string name="dialog_import_title">[IPC-m] Importarea datelor</string>
+    <string name="dialog_import_label_import">Importarea datelor</string>
+    <string name="dialog_import_button_import">Importează</string>
+    <string name="dialog_import_message_default">Alegeți fișier pentru importare</string>
+    <string name="dialog_import_message_selected">Numărul de fișiere alese</string>
+    <string name="dialog_import_message_imports">AȘTEPTAȚI! Se importă fișierul</string>
+    <string name="dialog_import_message_imported">Importarea s-a finisat cu succes!</string>
+    <string name="dialog_import_message_imported_err">Importarea a eșuat!</string>
+    <string name="dialog_import_message_imported_wrong_file">Fișier are conținut nepotrivit!</string>
+    
+    <!-- Dialog Authorize Labels -->
+    <string name="dialog_authorize_title">Logare in sistem</string>
+    <string name="dialog_authorize_label_login">Login</string>
+    <string name="dialog_authorize_label_login_hint">Întroduceți login</string>
+    <string name="dialog_authorize_label_password">Parola</string>
+    <string name="dialog_authorize_message_wrong_login">Login sau parola este greșit</string>
+    
+    <!-- Dialog RegUnit Labels -->
+    <string name="dialog_regunit_title">[IPC-m] Selectarea unității statistice</string>
+    <string name="dialog_regunit_label_unit">Alegeți Unitatea Statistică</string>
+    <string name="dialog_regunit_radio_show_active">Unități active</string>
+    <string name="dialog_regunit_radio_show_remained">Rămase</string>
+    <string name="dialog_regunit_radio_show_errors">Cu erori</string>
+    <string name="dialog_regunit_radio_show_all">Toate</string>
+    <string name="dialog_regunit_sort_name">Sortare după denumire:</string>
+    <string name="dialog_regunit_default_code">0000</string>
+    <string name="dialog_regunit_default_name">Alegeți unitatea statistică</string>
+    <string name="dialog_regunit_default_info">Informația de contact</string>
+    <string name="dialog_regunit_default_statut">0</string>
+    <string name="dialog_regunit_label_find_code">Caută după cod</string>
+    <string name="dialog_regunit_label_find_name">Caută după denumire</string>
+    <string name="dialog_regunit_label_find_code_hint">cod</string>
+    <string name="dialog_regunit_label_find_name_hint">denumire</string>
+    <string name="dialog_regunit_label_find_result_ok">A fost gasită o unitatea</string>
+    <string name="dialog_regunit_label_find_result_no">Nici-o unitatea nu a fost gasită</string>
+    
+    <!-- Dialog Menu Labels -->
+    <string name="dialog_menu_title">Meniu principal</string>
+    <string name="dialog_menu_label_find">Căutare</string>
+    <string name="dialog_menu_label_clear_data">Șterge date</string>
+    <string name="dialog_menu_label_assort_add">Adaugă sortiment</string>
+    <string name="dialog_menu_label_assort_mod">Modifică sortiment</string>
+    <string name="dialog_menu_label_assort_del">Șterge sortiment</string>
+    <string name="dialog_menu_label_period">Setează perioada</string>
+    <string name="dialog_menu_label_import">Importează datele</string>
+    <string name="dialog_menu_label_export">Exportează datele</string>
+    <string name="dialog_menu_label_exit">Închide program</string>
+    
+    <!-- Dialog Period Labels -->
+    <string name="dialog_period_title">Perioada</string>
+    <string name="dialog_period_label_year">Anul</string>
+    <string name="dialog_period_label_month">Luna</string>
+    <string name="dialog_period_month01">Ianuarie</string>
+    <string name="dialog_period_month02">Februarie</string>
+    <string name="dialog_period_month03">Martie</string>
+    <string name="dialog_period_month04">Aprilie</string>
+    <string name="dialog_period_month05">Mai</string>
+    <string name="dialog_period_month06">Iunie</string>
+    <string name="dialog_period_month07">Iulie</string>
+    <string name="dialog_period_month08">August</string>
+    <string name="dialog_period_month09">Septembrie</string>
+    <string name="dialog_period_month10">Octombrie</string>
+    <string name="dialog_period_month11">Noiembrie</string>
+    <string name="dialog_period_month12">Decemrie</string>
+    <string name="dialog_period_decade">Decada</string>
+    <string name="dialog_period_decade1">1</string>
+    <string name="dialog_period_decade2">2</string>
+    <string name="dialog_period_decade3">3</string>
+    
+    <!-- Dialog Comment Labels -->
+    <string name="dialog_comment_title">Comentariu</string>
+    <string name="dialog_comment_label_status">Statutul produsului</string>
+    <string name="dialog_comment_status0">Nici-o descriere</string>
+    <string name="dialog_comment_status1">Începutul sezonului</string>
+    <string name="dialog_comment_status2">Sfîrșitul sezonului</string>
+    <string name="dialog_comment_status3">Produs lipsește temporar</string>
+    <string name="dialog_comment_status4">Produs nou</string>
+    <string name="dialog_comment_status5">Produs exclus</string>
+    <string name="dialog_comment_status6">Schimb de calitate a produsului</string>
+    <string name="dialog_comment_label_text">Comentariu textual</string>
+    
+    <!-- Dialog Assortment Labels -->
+    <string name="dialog_assortment_title">Sortiment</string>
+    <string name="dialog_assortment_title_add">Adăugarea sortimentului nou</string>
+    <string name="dialog_assortment_title_mod">Modificarea sortimentului</string>
+    <string name="dialog_assortment_label_regunit">Unitatea statistică</string>
+    <string name="dialog_assortment_label_regunit_code">Cod</string>
+    <string name="dialog_assortment_label_regunit_default">Alegeți unitatea statistică</string>
+    <string name="dialog_assortment_label_product">Denumirea produsului</string>
+    <string name="dialog_assortment_label_product_code">Cod</string>
+    <string name="dialog_assortment_label_product_default">Alegeți produs</string>
+    <string name="dialog_assortment_label_assort_code">Cod</string>
+    <string name="dialog_assortment_label_name">Denumirea sortimentului</string>
+    <string name="dialog_assortment_label_quantity">Cantitate</string>
+    <string name="dialog_assortment_label_quantity_um">Unitatea de măsură</string>
+    <string name="dialog_assortment_label_country">Țara producator</string>
+    <string name="dialog_assortment_label_country_code">Cod</string>
+    <string name="dialog_assortment_label_company">Compania producator</string>
+    <string name="dialog_assortment_label_brand">Denumirea brăndului</string>
+    <string name="dialog_assortment_error_regunit_empty">Lipsește codul unității statistice</string>
+    <string name="dialog_assortment_error_product_empty">Lipsește codul produsului</string>
+    <string name="dialog_assortment_error_assort_empty">Lipsește codul sortimentului</string>
+    <string name="dialog_assortment_error_name_empty">Lipsește denumirea sortimentului</string>
+    <string name="dialog_assortment_error_regunit_bad">Codul unității statistice este greșit</string>
+    <string name="dialog_assortment_error_product_bad">Codul produsului este greșit</string>
+    <string name="dialog_assortment_error_assort_exists">Sortiment introdus deja există</string>
+    <string name="dialog_assortment_error_quantity_empty">Lipsește valoarea cantității</string>
+    <string name="dialog_assortment_error_country_bad">Codul țării este greșit</string>
+    <string name="dialog_assortment_error_save_bad">Datele nu a putut fi salvate</string>
+    <string name="dialog_assortment_error_save_ok">Datele a fost salvate cu succes</string>
+    
+    <!-- Dialog Assortment Product List Labels -->
+    <string name="dialog_asrt_product_title">Alegeți produs</string>
+    <string name="dialog_asrt_product_sort_name">Sortare după denumire:</string>
+    
+    <!-- Dialog Assortment Country List Labels -->
+    <string name="dialog_asrt_country_title">Alegeți țara</string>
+    <string name="dialog_asrt_country_sort_name">Sortare după denumire:</string>
+
+    <!-- Dialog Export Labels -->
+    <string name="dialog_export_title">Exportarea datelor</string>
+    <string name="dialog_export_label_export">Exportarea datelor</string>
+    <string name="dialog_export_button_export">Exportează</string>
+    <string name="dialog_export_period">Pentru perioada</string>
+    <string name="dialog_export_message_default">Doriți sa exportați datele?</string>
+    <string name="dialog_export_message_exports">AȘTEPTAȚI! Se exportă fișierul</string>
+    <string name="dialog_export_message_exported">Exportarea s-a finisat cu succes!</string>
+    <string name="dialog_export_message_exported_err">Exportarea a eșuat!</string>
+    <string name="dialog_export_message_exported_err_exists_errors">Sunt date eronate!</string>
+    <string name="dialog_export_message_exported_err_exists_remained">Sunt date necompletate!</string>
+    <string name="dialog_export_message_temporary_old_export">Atenție! Aplicația temporar face export pentru versiunea precedentă!\nAceasta funcția este activă pină la data de 01.04.2014!\nDupă aceasta data trebuie să cereți versiunea nouă!</string>
+    <string name="dialog_export_message_temporary_old_export_show">Programul a expirat! Cereți versiunea nouă!</string>
+
+    <!-- Dialog Clear Data Labels -->
+    <string name="dialog_clear_data_title">Ștergerea datelor</string>
+    <string name="dialog_clear_data_label">Ștergerea datelor</string>
+    <string name="dialog_clear_data_button">Șterge</string>
+    <string name="dialog_clear_data_message_default">Alegeți setul de date pentru ștergere</string>
+    <string name="dialog_clear_data_message_selected">Numărul de seturi de date alese</string>
+    <string name="dialog_clear_data_message_clears">AȘTEPTAȚI! Se șterg date</string>
+    <string name="dialog_clear_data_message_cleared">Ștergerea s-a finisat cu succes!</string>
+    <string name="dialog_clear_data_message_cleared_err">Ștergerea a eșuat!</string>
+    <string name="dialog_clear_data_confirm">Date vor fi șterse fără posibilitate de restabilire!\nSigur doriți să ștergeți date?</string>
+    
+</resources>

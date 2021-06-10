@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit_dialog_comment_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/dialog_comment_label_text" />
+
+    <TextView
+        android:id="@+id/text_dialog_comment_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/dialog_comment_label_status"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup_dialog_comment_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+        <RadioButton
+            android:id="@+id/radio_dialog_comment_status0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/dialog_comment_status0" />
+
+        <RadioButton
+            android:id="@+id/radio_dialog_comment_status1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_comment_status1" />
+
+        <RadioButton
+            android:id="@+id/radio_dialog_comment_status2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_comment_status2" />
+
+        <RadioButton
+            android:id="@+id/radio_dialog_comment_status3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_comment_status3" />
+
+        <RadioButton
+            android:id="@+id/radio_dialog_comment_status4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_comment_status4" />
+
+        <RadioButton
+            android:id="@+id/radio_dialog_comment_status5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_comment_status5" />
+
+        <RadioButton
+            android:id="@+id/radio_dialog_comment_status6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_comment_status6" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/button_dialog_comment_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/dialog_cancel" />
+
+        <Button
+            android:id="@+id/button_dialog_comment_ok"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/dialog_ok"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

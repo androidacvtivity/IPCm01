@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="md.statistica.ipc.ipcm_v01"
+    android:versionCode="1"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter
+                android:icon="@drawable/ic_launcher"
+                android:label="@string/app_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- created by programator152 at 2013-07-15 12:38:58 -->
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.MainActivityFind"
+            android:label="@string/dialog_find"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogImport"
+            android:label="@string/dialog_import_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogExport"
+            android:label="@string/dialog_export_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogAuthorize"
+            android:label="@string/dialog_authorize_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogRegUnit"
+            android:label="@string/dialog_regunit_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogRegUnitFind"
+            android:label="@string/dialog_find"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogMenu"
+            android:label="@string/dialog_menu_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogPeriod"
+            android:label="@string/dialog_period_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogComment"
+            android:label="@string/dialog_comment_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogAssortment"
+            android:label="@string/dialog_assortment_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogAsrtProduct"
+            android:label="@string/dialog_asrt_product_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogAsrtCountry"
+            android:label="@string/dialog_asrt_country_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="md.statistica.ipc.ipcm_v01.DialogClearData"
+            android:label="@string/dialog_clear_data_title"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

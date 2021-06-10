@@ -1,0 +1,298 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_main_filter_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_statunit"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="@string/main_default_unit_name"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/button_find_prod"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:contentDescription="@string/dialog_find"
+                android:src="@drawable/ic_find" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+        </ListView>
+        
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_keyboard" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" >
+
+            <TextView
+                android:id="@+id/text_username"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="@string/main_default_username"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/text_reg_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="@string/main_default_reg_date"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/keyboard_1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_1"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/keyboard_2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_2"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/keyboard_3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_3"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/keyboard_back"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_back"
+                android:textColor="@color/main_keyboard_back"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/keyboard_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/dialog_ok"
+                android:src="@drawable/btn_image_submit" />
+
+            <ImageButton
+                android:id="@+id/keyboard_up"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/main_keyboard_up"
+                android:src="@drawable/ic_arrow_up" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/keyboard_4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_4"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/keyboard_5"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_5"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/keyboard_6"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_6"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/keyboard_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_dot"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/keyboard_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/dialog_cancel"
+                android:src="@drawable/btn_image_cancel" />
+
+            <ImageButton
+                android:id="@+id/keyboard_down"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/main_keyboard_down"
+                android:src="@drawable/ic_arrow_down" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/keyboard_7"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_7"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/keyboard_8"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_8"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/keyboard_9"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_9"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/keyboard_0"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="2"
+                android:text="@string/main_keyboard_0"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/keyboard_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/main_keyboard_comment"
+                android:src="@drawable/btn_image_comment" />
+
+            <ImageButton
+                android:id="@+id/keyboard_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/dialog_menu"
+                android:src="@drawable/ic_err_list" />
+
+        </TableRow>
+
+        <RadioGroup
+            android:id="@+id/radioGroup_main_filter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_main_filter_active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:checked="false"
+                android:text="@string/main_filter_active" />
+
+            <RadioButton
+                android:id="@+id/radio_main_filter_remained"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/main_filter_remained" />
+
+            <RadioButton
+                android:id="@+id/radio_main_filter_errors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/main_filter_errors" />
+
+            <TextView
+                android:id="@+id/text_main_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/main_sort_title"
+                android:textStyle="italic" />
+
+            <Spinner
+                android:id="@+id/spinner_main_sort"
+                android:layout_width="130dp"
+                android:layout_height="40dp" />
+
+        </RadioGroup>
+        
+    </TableLayout>
+
+</LinearLayout>

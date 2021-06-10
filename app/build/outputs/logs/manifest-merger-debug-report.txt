@@ -1,0 +1,274 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\2ab9f694e5d3af64949140461960b743\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\c82a9eca41089f3a6896ea573cfccd87\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\01a78cf554e6c4441512374e19a94070\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\cafdcb56cd064bbf622135f61bb6ed84\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\7cbfbaaa39ecb82620bffe2588206993\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\fb1a0924cbad762d0f581f6d187fd952\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\c6e778544c3daa9334b7e39d7723ab0b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\390fba7780f75f3935d6793c0cae2473\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\868c4b7ee3ddc9bf7e171c26bc1832bd\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\092a3e2c794826840c7bdfa866a4ff56\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\a47101ded039236e94007b8beb4d0848\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\02762fa41652d52d9fee565fa6e98d0d\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\c523d7266f112830516f47157eeaf9c5\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\86c84a825357d05c2f724246490a8df6\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\ca96f6182f57510854af9a656e5790c4\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\b33061385d67b982bb885113b832fc1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\01df92b7300672a5ff8664dc3764ee51\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\5586921ae4cea2e46fb71f72d59033a3\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\5a0ff6eba4a0ab8a5ff2db13b6b96742\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\d905bd4d37713ddb7e2a558cb611c465\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\0f9f9612216e1658ded37de1f7493c8e\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\db70915db5482881b82db5efafd295dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\e8a9ba95fcf0cc98ab87a4d17d4050b7\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:2:35-60
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:3:42-100
+	android:versionCode
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:2:11-34
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:5:22-78
+application
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:6:5-29:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:7:9-45
+	android:allowBackup
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:6:18-44
+	android:theme
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:8:42-73
+activity#md.statistica.ipc.ipcm_v01.MainActivity
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:9:9-14:20
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:9:107-143
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:9:19-51
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:9:52-106
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:10:13-13:29
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:10:65-97
+	android:icon
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:10:28-64
+action#android.intent.action.MAIN
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:11:17-68
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:11:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:12:17-76
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:12:27-74
+activity#md.statistica.ipc.ipcm_v01.MainActivityFind
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:9-206
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:158-194
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:122-157
+	android:theme
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:78-121
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:19-77
+activity#md.statistica.ipc.ipcm_v01.DialogImport
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:206-353
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:315-351
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:271-314
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:216-270
+activity#md.statistica.ipc.ipcm_v01.DialogExport
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:353-510
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:462-498
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:418-461
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:16:363-417
+activity#md.statistica.ipc.ipcm_v01.DialogAuthorize
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:17:9-216
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:17:168-204
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:17:77-123
+	android:theme
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:17:124-167
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:17:19-76
+activity#md.statistica.ipc.ipcm_v01.DialogRegUnit
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:18:9-168
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:18:120-156
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:18:75-119
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:18:19-74
+activity#md.statistica.ipc.ipcm_v01.DialogRegUnitFind
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:19:9-207
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:19:159-195
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:19:123-158
+	android:theme
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:19:79-122
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:19:19-78
+activity#md.statistica.ipc.ipcm_v01.DialogMenu
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:20:9-206
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:20:158-194
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:20:116-157
+	android:theme
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:20:72-115
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:20:19-71
+activity#md.statistica.ipc.ipcm_v01.DialogPeriod
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:21:9-210
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:21:162-198
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:21:118-161
+	android:theme
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:21:74-117
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:21:19-73
+activity#md.statistica.ipc.ipcm_v01.DialogComment
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:23:9-212
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:23:164-200
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:23:75-119
+	android:theme
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:23:120-163
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:23:19-74
+activity#md.statistica.ipc.ipcm_v01.DialogAssortment
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:24:9-174
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:24:126-162
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:24:78-125
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:24:19-77
+activity#md.statistica.ipc.ipcm_v01.DialogAsrtProduct
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:25:9-221
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:25:173-209
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:25:123-172
+	android:theme
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:25:79-122
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:25:19-78
+activity#md.statistica.ipc.ipcm_v01.DialogAsrtCountry
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:26:9-221
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:26:173-209
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:26:123-172
+	android:theme
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:26:79-122
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:26:19-78
+activity#md.statistica.ipc.ipcm_v01.DialogClearData
+ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:27:9-173
+	android:screenOrientation
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:27:125-161
+	android:label
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:27:77-124
+	android:name
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:27:19-76
+uses-sdk
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\2ab9f694e5d3af64949140461960b743\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\2ab9f694e5d3af64949140461960b743\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\c82a9eca41089f3a6896ea573cfccd87\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\c82a9eca41089f3a6896ea573cfccd87\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\01a78cf554e6c4441512374e19a94070\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\01a78cf554e6c4441512374e19a94070\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\cafdcb56cd064bbf622135f61bb6ed84\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\cafdcb56cd064bbf622135f61bb6ed84\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\7cbfbaaa39ecb82620bffe2588206993\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\7cbfbaaa39ecb82620bffe2588206993\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\fb1a0924cbad762d0f581f6d187fd952\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\fb1a0924cbad762d0f581f6d187fd952\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\c6e778544c3daa9334b7e39d7723ab0b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\c6e778544c3daa9334b7e39d7723ab0b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\390fba7780f75f3935d6793c0cae2473\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\390fba7780f75f3935d6793c0cae2473\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\868c4b7ee3ddc9bf7e171c26bc1832bd\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\868c4b7ee3ddc9bf7e171c26bc1832bd\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\092a3e2c794826840c7bdfa866a4ff56\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\092a3e2c794826840c7bdfa866a4ff56\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\a47101ded039236e94007b8beb4d0848\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\a47101ded039236e94007b8beb4d0848\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\02762fa41652d52d9fee565fa6e98d0d\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\02762fa41652d52d9fee565fa6e98d0d\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\c523d7266f112830516f47157eeaf9c5\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\c523d7266f112830516f47157eeaf9c5\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\9902be9b1aac21e364b85501bd7541d0\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\ab0971dc0418d312ad5e60792163f1ea\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\86c84a825357d05c2f724246490a8df6\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\86c84a825357d05c2f724246490a8df6\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\ca96f6182f57510854af9a656e5790c4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\ca96f6182f57510854af9a656e5790c4\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\b33061385d67b982bb885113b832fc1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\b33061385d67b982bb885113b832fc1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\01df92b7300672a5ff8664dc3764ee51\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\01df92b7300672a5ff8664dc3764ee51\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\5586921ae4cea2e46fb71f72d59033a3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\5586921ae4cea2e46fb71f72d59033a3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\5a0ff6eba4a0ab8a5ff2db13b6b96742\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\5a0ff6eba4a0ab8a5ff2db13b6b96742\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\d905bd4d37713ddb7e2a558cb611c465\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\d905bd4d37713ddb7e2a558cb611c465\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\0f9f9612216e1658ded37de1f7493c8e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\0f9f9612216e1658ded37de1f7493c8e\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\db70915db5482881b82db5efafd295dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\db70915db5482881b82db5efafd295dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\e8a9ba95fcf0cc98ab87a4d17d4050b7\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-2\files-2.1\e8a9ba95fcf0cc98ab87a4d17d4050b7\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+		ADDED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+		INJECTED from C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml

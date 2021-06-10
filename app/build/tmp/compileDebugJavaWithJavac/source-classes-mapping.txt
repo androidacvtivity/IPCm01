@@ -1,0 +1,119 @@
+md/statistica/ipc/ipcm_v01/DialogImport.java
+ md.statistica.ipc.ipcm_v01.DialogImport
+ md.statistica.ipc.ipcm_v01.DialogImport$1
+ md.statistica.ipc.ipcm_v01.DialogImport$2
+ md.statistica.ipc.ipcm_v01.DialogImport$3
+ md.statistica.ipc.ipcm_v01.DialogImport$4
+ md.statistica.ipc.ipcm_v01.DialogImport$ImportTask
+md/statistica/ipc/ipcm_v01/MainLibrary.java
+ md.statistica.ipc.ipcm_v01.MainLibrary
+md/statistica/ipc/ipcm_v01/DialogAsrtProductAdapter.java
+ md.statistica.ipc.ipcm_v01.DialogAsrtProductAdapter
+ md.statistica.ipc.ipcm_v01.DialogAsrtProductAdapter$ViewHolder
+md/statistica/ipc/ipcm_v01/DialogComment.java
+ md.statistica.ipc.ipcm_v01.DialogComment
+ md.statistica.ipc.ipcm_v01.DialogComment$1
+ md.statistica.ipc.ipcm_v01.DialogComment$2
+md/statistica/ipc/ipcm_v01/DialogAsrtCountry.java
+ md.statistica.ipc.ipcm_v01.DialogAsrtCountry
+ md.statistica.ipc.ipcm_v01.DialogAsrtCountry$1
+ md.statistica.ipc.ipcm_v01.DialogAsrtCountry$2
+ md.statistica.ipc.ipcm_v01.DialogAsrtCountry$3
+md/statistica/ipc/ipcm_v01/DialogAuthorize.java
+ md.statistica.ipc.ipcm_v01.DialogAuthorize
+ md.statistica.ipc.ipcm_v01.DialogAuthorize$1
+ md.statistica.ipc.ipcm_v01.DialogAuthorize$2
+ md.statistica.ipc.ipcm_v01.DialogAuthorize$3
+ md.statistica.ipc.ipcm_v01.DialogAuthorize$4
+md/statistica/ipc/ipcm_v01/DialogExport.java
+ md.statistica.ipc.ipcm_v01.DialogExport
+ md.statistica.ipc.ipcm_v01.DialogExport$1
+ md.statistica.ipc.ipcm_v01.DialogExport$2
+ md.statistica.ipc.ipcm_v01.DialogExport$ExportTask
+md/statistica/ipc/ipcm_v01/DBClsProducts.java
+ md.statistica.ipc.ipcm_v01.DBClsProducts
+ md.statistica.ipc.ipcm_v01.DBClsProducts$ItemClass
+md/statistica/ipc/ipcm_v01/DBClsCounties.java
+ md.statistica.ipc.ipcm_v01.DBClsCounties
+ md.statistica.ipc.ipcm_v01.DBClsCounties$ItemClass
+md/statistica/ipc/ipcm_v01/DBDataPrices.java
+ md.statistica.ipc.ipcm_v01.DBDataPrices
+ md.statistica.ipc.ipcm_v01.DBDataPrices$ItemClass
+md/statistica/ipc/ipcm_v01/MainActivityListAdapter.java
+ md.statistica.ipc.ipcm_v01.MainActivityListAdapter
+ md.statistica.ipc.ipcm_v01.MainActivityListAdapter$ViewHolder
+md/statistica/ipc/ipcm_v01/DialogRegUnit.java
+ md.statistica.ipc.ipcm_v01.DialogRegUnit
+ md.statistica.ipc.ipcm_v01.DialogRegUnit$1
+ md.statistica.ipc.ipcm_v01.DialogRegUnit$2
+ md.statistica.ipc.ipcm_v01.DialogRegUnit$3
+ md.statistica.ipc.ipcm_v01.DialogRegUnit$4
+md/statistica/ipc/ipcm_v01/MainActivityFind.java
+ md.statistica.ipc.ipcm_v01.MainActivityFind
+ md.statistica.ipc.ipcm_v01.MainActivityFind$1
+ md.statistica.ipc.ipcm_v01.MainActivityFind$2
+ md.statistica.ipc.ipcm_v01.MainActivityFind$3
+md/statistica/ipc/ipcm_v01/BuildConfig.java
+ md.statistica.ipc.ipcm_v01.BuildConfig
+md/statistica/ipc/ipcm_v01/MainActivity.java
+ md.statistica.ipc.ipcm_v01.MainActivity
+ md.statistica.ipc.ipcm_v01.MainActivity$1
+ md.statistica.ipc.ipcm_v01.MainActivity$10
+ md.statistica.ipc.ipcm_v01.MainActivity$11
+ md.statistica.ipc.ipcm_v01.MainActivity$2
+ md.statistica.ipc.ipcm_v01.MainActivity$3
+ md.statistica.ipc.ipcm_v01.MainActivity$4
+ md.statistica.ipc.ipcm_v01.MainActivity$5
+ md.statistica.ipc.ipcm_v01.MainActivity$6
+ md.statistica.ipc.ipcm_v01.MainActivity$7
+ md.statistica.ipc.ipcm_v01.MainActivity$8
+ md.statistica.ipc.ipcm_v01.MainActivity$9
+md/statistica/ipc/ipcm_v01/Database.java
+ md.statistica.ipc.ipcm_v01.Database
+md/statistica/ipc/ipcm_v01/DialogAsrtCountryAdapter.java
+ md.statistica.ipc.ipcm_v01.DialogAsrtCountryAdapter
+ md.statistica.ipc.ipcm_v01.DialogAsrtCountryAdapter$ViewHolder
+md/statistica/ipc/ipcm_v01/DialogRegUnitFind.java
+ md.statistica.ipc.ipcm_v01.DialogRegUnitFind
+ md.statistica.ipc.ipcm_v01.DialogRegUnitFind$1
+ md.statistica.ipc.ipcm_v01.DialogRegUnitFind$2
+ md.statistica.ipc.ipcm_v01.DialogRegUnitFind$3
+md/statistica/ipc/ipcm_v01/DialogAssortment.java
+ md.statistica.ipc.ipcm_v01.DialogAssortment
+ md.statistica.ipc.ipcm_v01.DialogAssortment$1
+ md.statistica.ipc.ipcm_v01.DialogAssortment$2
+ md.statistica.ipc.ipcm_v01.DialogAssortment$3
+ md.statistica.ipc.ipcm_v01.DialogAssortment$4
+ md.statistica.ipc.ipcm_v01.DialogAssortment$5
+ md.statistica.ipc.ipcm_v01.DialogAssortment$6
+md/statistica/ipc/ipcm_v01/DialogClearData.java
+ md.statistica.ipc.ipcm_v01.DialogClearData
+ md.statistica.ipc.ipcm_v01.DialogClearData$1
+ md.statistica.ipc.ipcm_v01.DialogClearData$2
+ md.statistica.ipc.ipcm_v01.DialogClearData$3
+ md.statistica.ipc.ipcm_v01.DialogClearData$3$1
+ md.statistica.ipc.ipcm_v01.DialogClearData$ClearDataTask
+md/statistica/ipc/ipcm_v01/DialogPeriod.java
+ md.statistica.ipc.ipcm_v01.DialogPeriod
+ md.statistica.ipc.ipcm_v01.DialogPeriod$1
+ md.statistica.ipc.ipcm_v01.DialogPeriod$2
+ md.statistica.ipc.ipcm_v01.DialogPeriod$3
+ md.statistica.ipc.ipcm_v01.DialogPeriod$4
+md/statistica/ipc/ipcm_v01/DialogMenu.java
+ md.statistica.ipc.ipcm_v01.DialogMenu
+ md.statistica.ipc.ipcm_v01.DialogMenu$1
+md/statistica/ipc/ipcm_v01/DBUserInfo.java
+ md.statistica.ipc.ipcm_v01.DBUserInfo
+md/statistica/ipc/ipcm_v01/DialogRegUnitListAdapter.java
+ md.statistica.ipc.ipcm_v01.DialogRegUnitListAdapter
+ md.statistica.ipc.ipcm_v01.DialogRegUnitListAdapter$ViewHolder
+md/statistica/ipc/ipcm_v01/DBRegUnits.java
+ md.statistica.ipc.ipcm_v01.DBRegUnits
+ md.statistica.ipc.ipcm_v01.DBRegUnits$ItemClass
+md/statistica/ipc/ipcm_v01/DatabaseHealper.java
+ md.statistica.ipc.ipcm_v01.DatabaseHealper
+md/statistica/ipc/ipcm_v01/DialogAsrtProduct.java
+ md.statistica.ipc.ipcm_v01.DialogAsrtProduct
+ md.statistica.ipc.ipcm_v01.DialogAsrtProduct$1
+ md.statistica.ipc.ipcm_v01.DialogAsrtProduct$2
+ md.statistica.ipc.ipcm_v01.DialogAsrtProduct$3

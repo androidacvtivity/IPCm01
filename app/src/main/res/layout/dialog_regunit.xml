@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_dialog_regunit_filter_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text_dialog_regunit_label"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/dialog_regunit_label_unit"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/button_dialog_regunit_find"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/dialog_find"
+            android:src="@drawable/ic_find" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_dialog_regunit_items"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="10dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_dialog_regunit_filter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_dialog_regunit_filter_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:checked="false"
+            android:text="@string/dialog_regunit_radio_show_active" />
+
+        <RadioButton
+            android:id="@+id/radio_dialog_regunit_filter_remained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/dialog_regunit_radio_show_remained" />
+
+        <RadioButton
+            android:id="@+id/radio_dialog_regunit_filter_errors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/dialog_regunit_radio_show_errors" />
+
+        <RadioButton
+            android:id="@+id/radio_dialog_regunit_filter_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/dialog_regunit_radio_show_all" />
+
+        <TextView
+            android:id="@+id/text_dialog_regunit_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:maxLines="1"
+            android:text="@string/dialog_regunit_sort_name"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:id="@+id/check_dialog_regunit_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+</LinearLayout>
