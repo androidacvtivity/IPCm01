@@ -2,13 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="md.statistica.ipc.ipcm_v01"
     android:versionCode="1"
-    android:versionName="1.2" >
+    android:versionName="1" >
 
     <uses-sdk
         android:minSdkVersion="22"
         android:targetSdkVersion="30" />
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="30" />
 
     <application
         android:allowBackup="true"
