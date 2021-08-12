@@ -78,7 +78,7 @@ public class MainLibrary
 	//=================================== MATHIMATICAL ROUTINES ====================================
 	//----------------------------------------------------------------------------------------------
 	//Round to integer value
-	public static Double round(Double number)
+		public static Double round(Double number)
 	{
 		return Double.valueOf(Math.round(number));
 	}

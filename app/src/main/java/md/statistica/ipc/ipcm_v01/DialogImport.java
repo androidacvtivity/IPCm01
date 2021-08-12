@@ -24,11 +24,14 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import static android.R.layout.simple_list_item_multiple_choice;
+import static android.widget.AbsListView.CHOICE_MODE_MULTIPLE;
+
 public class DialogImport extends Activity 
 {
 	Activity	this_link;
-	Button		button_close;
-	Button		button_import;
+	Button		button_close, button_import;
+	//Button		button_import;
 	ListView	list_import_files;
 	TextView	text_import_message;
 	ProgressBar	progress_dialog_import;
@@ -37,7 +40,7 @@ public class DialogImport extends Activity
 	
 	//----------------------------------------------------------------------------------------------
 	@Override
-	public void onCreate(Bundle savedInstanceState) 
+	public void onCreate(Bundle savedInstanceState)
 	{
 		//Base initialization ......................................................................
 		super.onCreate(savedInstanceState);
@@ -71,8 +74,8 @@ public class DialogImport extends Activity
 		        return (name.toLowerCase().startsWith("upd") && name.toLowerCase().endsWith(".xml"));
 		    }
 		});
-		list_import_files.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
-		list_import_files.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice, importFiles));
+		 list_import_files.setChoiceMode(CHOICE_MODE_MULTIPLE);
+		 list_import_files.setAdapter(new ArrayAdapter<String>(this, simple_list_item_multiple_choice, importFiles));
 	}
 
 	//----------------------------------------------------------------------------------------------

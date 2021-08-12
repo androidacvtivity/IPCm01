@@ -4,7 +4,7 @@
             "outputFile": "C:\\bancusoft\\Android_projects\\IPCm01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-2\\files-2.1\\9902be9b1aac21e364b85501bd7541d0\\core-1.0.0\\res\\values-gl\\values-gl.xml",
+                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-3\\ea36836c97c1c141353f7acdd87e0be6\\transformed\\core-1.0.0\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
