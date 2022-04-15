@@ -4,6 +4,23 @@
             "outputFile": "C:\\bancusoft\\Android_projects\\IPCm01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-3\\4ff7b89a1fb1aea3a45b1663b12515c4\\transformed\\media-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
+                    },
+                    "to": {
+                        "startLines": "10,11,13,37,38,39,40,51,261,263,264,269,271",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "396,485,614,2227,2280,2333,2386,2929,17835,18011,18133,18395,18590",
+                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
+                        "endOffsets": "480,551,682,2275,2328,2381,2434,2984,17896,18128,18189,18456,18652"
+                    }
+                },
+                {
                     "source": "C:\\bancusoft\\Android_projects\\IPCm01\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "7,17",
@@ -20,6 +37,25 @@
                         "endLines": "252,255",
                         "endColumns": "12,12",
                         "endOffsets": "17352,17512"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-3\\2e57b8fb71f4a475f9f21d587a549e7c\\transformed\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,102,3,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,5935,116,724",
+                        "endLines": "2,104,12,101",
+                        "endColumns": "60,12,24,24",
+                        "endOffsets": "111,6075,719,5930"
+                    },
+                    "to": {
+                        "startLines": "7,274,284,294",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "203,18796,19239,19847",
+                        "endLines": "7,276,293,382",
+                        "endColumns": "60,12,24,24",
+                        "endOffsets": "259,18936,19842,25053"
                     }
                 },
                 {
@@ -42,43 +78,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-3\\5591782a0e4bdcdb9c630a32c203af8f\\transformed\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,102,3,13",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,5935,116,724",
-                        "endLines": "2,104,12,101",
-                        "endColumns": "60,12,24,24",
-                        "endOffsets": "111,6075,719,5930"
-                    },
-                    "to": {
-                        "startLines": "7,274,284,294",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "203,18796,19239,19847",
-                        "endLines": "7,276,293,382",
-                        "endColumns": "60,12,24,24",
-                        "endOffsets": "259,18936,19842,25053"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-3\\a44f7d642c441ca604adf667f4646668\\transformed\\media-1.0.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,144,215,288,341,394,447,500,560,626,748,809,875",
-                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
-                        "endOffsets": "139,210,283,336,389,442,495,555,621,743,804,870,937"
-                    },
-                    "to": {
-                        "startLines": "10,11,13,37,38,39,40,51,261,263,264,269,271",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "396,485,614,2227,2280,2333,2386,2929,17835,18011,18133,18395,18590",
-                        "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
-                        "endOffsets": "480,551,682,2275,2328,2381,2434,2984,17896,18128,18189,18456,18652"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-3\\ea36836c97c1c141353f7acdd87e0be6\\transformed\\core-1.0.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-3\\7b11811bee1755794062dd9be1ec36fd\\transformed\\core-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
