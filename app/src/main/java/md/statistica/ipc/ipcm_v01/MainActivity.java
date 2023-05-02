@@ -176,7 +176,9 @@ public class MainActivity extends Activity
 		else if (DBUserInfo.sortDataPrice == DBDataPrices.SORT_BY_NAME) spinner_sort.setSelection(2);
 		
 		//Check database and import data or authorize user .........................................
-		if (DBUserInfo.idUser == 0) importDataActivity(); else if (!DBUserInfo.isAuthorized) authorizeUserActivity();
+		if (DBUserInfo.idUser == 0) importDataActivity();
+		else
+			if (!DBUserInfo.isAuthorized) authorizeUserActivity();
 	}
 
 	//----------------------------------------------------------------------------------------------
@@ -541,12 +543,12 @@ public class MainActivity extends Activity
 			.setCancelable(false)
 	        .setTitle(R.string.dialog_attention)
 	        .setMessage(R.string.main_dialog_undef_user_message)
-	        .setPositiveButton(R.string.dialog_ok, new DialogInterface.OnClickListener() 
+	        .setPositiveButton(R.string.dialog_ok, new DialogInterface.OnClickListener()
 	        {
-	        	public void onClick(DialogInterface arg0, int arg1) 
+	        	public void onClick(DialogInterface arg0, int arg1)
 	        	{
 	        		finish();
-	        	} 
+	        	}
 	        }).create().show();
 		}
 		else

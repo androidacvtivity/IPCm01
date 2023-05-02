@@ -3,6 +3,8 @@ package md.statistica.ipc.ipcm_v01;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FilenameFilter;
+import java.io.IOException;
+import java.util.Locale;
 
 import org.xmlpull.v1.XmlPullParser;
 
@@ -12,6 +14,8 @@ import android.app.AlertDialog;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
 import android.util.SparseBooleanArray;
 import android.util.Xml;
 import android.view.View;
@@ -23,6 +27,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import static android.R.layout.simple_list_item_multiple_choice;
 import static android.widget.AbsListView.CHOICE_MODE_MULTIPLE;
@@ -40,12 +45,15 @@ public class DialogImport extends Activity
 	
 	//----------------------------------------------------------------------------------------------
 	@Override
+
+
+
 	public void onCreate(Bundle savedInstanceState)
 	{
 		//Base initialization ......................................................................
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.dialog_import);
-		
+
 		//Initialize views .........................................................................
 		this_link					= this;
 		button_close				= (Button)		findViewById(R.id.button_dialog_import_close);
@@ -53,7 +61,7 @@ public class DialogImport extends Activity
 		list_import_files			= (ListView)	findViewById(R.id.list_dialog_import_files);
 		text_import_message			= (TextView)	findViewById(R.id.text_dialog_import_message);
 		progress_dialog_import		= (ProgressBar)	findViewById(R.id.progress_dialog_import);
-		
+
 		button_import.setEnabled(false);
 		text_import_message.setText(R.string.dialog_import_message_default);
 		text_import_message.setTextColor(Color.BLACK);
@@ -66,19 +74,26 @@ public class DialogImport extends Activity
 
 		//Initialize file list .....................................................................
 		File directoryImport = MainLibrary.getImportDirectory();
-		String[] importFiles = directoryImport.list(new FilenameFilter() 
+		String[] importFiles = directoryImport.list(new FilenameFilter()
 		{
 		    @SuppressLint("DefaultLocale")
-			public boolean accept(File dir, String name) 
+			public boolean accept(File dir, String name)
 		    {
 		        return (name.toLowerCase().startsWith("upd") && name.toLowerCase().endsWith(".xml"));
 		    }
 		});
 		 list_import_files.setChoiceMode(CHOICE_MODE_MULTIPLE);
-		 list_import_files.setAdapter(new ArrayAdapter<String>(this, simple_list_item_multiple_choice, importFiles));
+	//	 list_import_files.setAdapter(new ArrayAdapter<String>(this, simple_list_item_multiple_choice, importFiles));
+//
+//		 //It must be modified if -list_import_files - is null, the application should open anyway.
+
+
 	}
 
-	//----------------------------------------------------------------------------------------------
+
+
+
+
 	//File OnClick Listener
 	OnItemClickListener FileClick = new OnItemClickListener() 
 	{

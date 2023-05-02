@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 32
-   // buildToolsVersion "30.0.3"
+    compileSdk 33
+// buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "md.statistica.ipc.ipcm_v01"
@@ -20,7 +20,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-  //  buildToolsVersion '30.0.3'
+    buildToolsVersion '32.1.0 rc1'
+    namespace 'md.statistica.ipc.ipcm_v01'
+    //  buildToolsVersion '30.0.3'
 }
 
 
