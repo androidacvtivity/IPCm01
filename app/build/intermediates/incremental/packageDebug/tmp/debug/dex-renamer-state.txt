@@ -1,10 +1,10 @@
-#Thu Aug 12 16:38:36 EEST 2021
-base.2=C\:\\bancusoft\\Android_projects\\IPCm01\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-path.2=11/classes.dex
-base.1=C\:\\bancusoft\\Android_projects\\IPCm01\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-path.1=0/classes.dex
-base.0=C\:\\bancusoft\\Android_projects\\IPCm01\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
+#Tue May 02 09:42:32 EEST 2023
+base.0=C\:\\Users\\VitalieBancu\\StudioProjects\\IPCm01\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\VitalieBancu\\StudioProjects\\IPCm01\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\VitalieBancu\\StudioProjects\\IPCm01\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=11/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

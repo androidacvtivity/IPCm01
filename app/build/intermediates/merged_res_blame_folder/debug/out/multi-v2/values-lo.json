@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\bancusoft\\Android_projects\\IPCm01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
+            "outputFile": "md.statistica.ipc.ipcm_v01.app-mergeDebugResources-5:/values-lo/values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-3\\7b11811bee1755794062dd9be1ec36fd\\transformed\\core-1.0.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\VitalieBancu\\.gradle\\caches\\transforms-3\\a1e32f2823ad2f1a8b1601b4c88aed7c\\transformed\\core-1.0.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

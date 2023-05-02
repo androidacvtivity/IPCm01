@@ -6,177 +6,177 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+8-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml
+9-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission
-11-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:11:5-18:11
+11-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:10:5-17:11
 12        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-12-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:12:9-65
+12-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:11:9-65
 13        android:maxSdkVersion="32" />
-13-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:14:9-35
+13-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:13:9-35
 14
 15    <application
-15-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:21:5-52:19
+15-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:20:5-51:19
 16        android:allowBackup="true"
-16-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:23:9-35
+16-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:22:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-3\7b11811bee1755794062dd9be1ec36fd\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+17-->[androidx.core:core:1.0.0] C:\Users\VitalieBancu\.gradle\caches\transforms-3\a1e32f2823ad2f1a8b1601b4c88aed7c\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
 18        android:debuggable="true"
 19        android:icon="@drawable/ic_launcher"
-19-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:24:9-45
+19-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:23:9-45
 20        android:label="@string/app_name"
-20-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:25:9-41
+20-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:24:9-41
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
-22-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:27:9-40
+22-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:26:9-40
 23        <activity
-23-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:28:9-34:20
+23-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:27:9-33:20
 24            android:name="md.statistica.ipc.ipcm_v01.MainActivity"
-24-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:28:52-106
+24-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:27:52-106
 25            android:exported="true"
-25-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:29:13-36
+25-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:28:13-36
 26            android:label="@string/app_name"
-26-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:28:19-51
+26-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:27:19-51
 27            android:screenOrientation="portrait" >
-27-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:28:107-143
+27-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:27:107-143
 28            <intent-filter
-28-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:30:13-33:29
+28-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:29:13-32:29
 29                android:icon="@drawable/ic_launcher"
-29-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:30:28-64
+29-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:29:28-64
 30                android:label="@string/app_name" >
-30-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:30:65-97
+30-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:29:65-97
 31                <action android:name="android.intent.action.MAIN" />
-31-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:31:17-68
-31-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:31:25-66
+31-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:30:17-68
+31-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:30:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:32:17-76
-33-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:32:27-74
+33-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:31:17-76
+33-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:31:27-74
 34            </intent-filter>
 35        </activity>
 36        <!-- created by programator152 at 2013-07-15 12:38:58 -->
 37        <activity
-37-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:36:9-206
+37-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:35:9-206
 38            android:name="md.statistica.ipc.ipcm_v01.MainActivityFind"
-38-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:36:19-77
+38-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:35:19-77
 39            android:label="@string/dialog_find"
-39-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:36:122-157
+39-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:35:122-157
 40            android:screenOrientation="portrait"
-40-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:36:158-194
+40-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:35:158-194
 41            android:theme="@android:style/Theme.Dialog" />
-41-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:36:78-121
+41-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:35:78-121
 42        <activity
-42-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:38:9-156
+42-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:37:9-156
 43            android:name="md.statistica.ipc.ipcm_v01.DialogImport"
-43-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:38:19-73
+43-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:37:19-73
 44            android:label="@string/dialog_import_title"
-44-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:38:74-117
+44-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:37:74-117
 45            android:screenOrientation="portrait" />
-45-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:38:118-154
+45-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:37:118-154
 46        <activity
-46-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:38:156-313
+46-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:37:156-313
 47            android:name="md.statistica.ipc.ipcm_v01.DialogExport"
-47-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:38:166-220
+47-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:37:166-220
 48            android:label="@string/dialog_export_title"
-48-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:38:221-264
+48-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:37:221-264
 49            android:screenOrientation="portrait" />
-49-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:38:265-301
+49-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:37:265-301
 50        <activity
-50-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:40:9-216
+50-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:39:9-216
 51            android:name="md.statistica.ipc.ipcm_v01.DialogAuthorize"
-51-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:40:19-76
+51-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:39:19-76
 52            android:label="@string/dialog_authorize_title"
-52-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:40:77-123
+52-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:39:77-123
 53            android:screenOrientation="portrait"
-53-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:40:168-204
+53-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:39:168-204
 54            android:theme="@android:style/Theme.Dialog" />
-54-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:40:124-167
+54-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:39:124-167
 55        <activity
-55-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:41:9-168
+55-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:40:9-168
 56            android:name="md.statistica.ipc.ipcm_v01.DialogRegUnit"
-56-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:41:19-74
+56-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:40:19-74
 57            android:label="@string/dialog_regunit_title"
-57-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:41:75-119
+57-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:40:75-119
 58            android:screenOrientation="portrait" />
-58-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:41:120-156
+58-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:40:120-156
 59        <activity
-59-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:42:9-207
+59-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:41:9-207
 60            android:name="md.statistica.ipc.ipcm_v01.DialogRegUnitFind"
-60-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:42:19-78
+60-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:41:19-78
 61            android:label="@string/dialog_find"
-61-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:42:123-158
+61-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:41:123-158
 62            android:screenOrientation="portrait"
-62-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:42:159-195
+62-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:41:159-195
 63            android:theme="@android:style/Theme.Dialog" />
-63-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:42:79-122
+63-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:41:79-122
 64        <activity
-64-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:43:9-206
+64-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:42:9-206
 65            android:name="md.statistica.ipc.ipcm_v01.DialogMenu"
-65-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:43:19-71
+65-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:42:19-71
 66            android:label="@string/dialog_menu_title"
-66-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:43:116-157
+66-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:42:116-157
 67            android:screenOrientation="portrait"
-67-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:43:158-194
+67-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:42:158-194
 68            android:theme="@android:style/Theme.Dialog" />
-68-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:43:72-115
+68-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:42:72-115
 69        <activity
-69-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:44:9-210
+69-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:43:9-210
 70            android:name="md.statistica.ipc.ipcm_v01.DialogPeriod"
-70-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:44:19-73
+70-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:43:19-73
 71            android:label="@string/dialog_period_title"
-71-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:44:118-161
+71-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:43:118-161
 72            android:screenOrientation="portrait"
-72-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:44:162-198
+72-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:43:162-198
 73            android:theme="@android:style/Theme.Dialog" />
-73-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:44:74-117
+73-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:43:74-117
 74        <activity
-74-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:46:9-212
+74-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:45:9-212
 75            android:name="md.statistica.ipc.ipcm_v01.DialogComment"
-75-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:46:19-74
+75-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:45:19-74
 76            android:label="@string/dialog_comment_title"
-76-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:46:75-119
+76-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:45:75-119
 77            android:screenOrientation="portrait"
-77-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:46:164-200
+77-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:45:164-200
 78            android:theme="@android:style/Theme.Dialog" />
-78-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:46:120-163
+78-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:45:120-163
 79        <activity
-79-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:47:9-174
+79-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:46:9-174
 80            android:name="md.statistica.ipc.ipcm_v01.DialogAssortment"
-80-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:47:19-77
+80-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:46:19-77
 81            android:label="@string/dialog_assortment_title"
-81-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:47:78-125
+81-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:46:78-125
 82            android:screenOrientation="portrait" />
-82-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:47:126-162
+82-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:46:126-162
 83        <activity
-83-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:48:9-221
+83-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:47:9-221
 84            android:name="md.statistica.ipc.ipcm_v01.DialogAsrtProduct"
-84-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:48:19-78
+84-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:47:19-78
 85            android:label="@string/dialog_asrt_product_title"
-85-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:48:123-172
+85-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:47:123-172
 86            android:screenOrientation="portrait"
-86-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:48:173-209
+86-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:47:173-209
 87            android:theme="@android:style/Theme.Dialog" />
-87-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:48:79-122
+87-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:47:79-122
 88        <activity
-88-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:49:9-221
+88-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:48:9-221
 89            android:name="md.statistica.ipc.ipcm_v01.DialogAsrtCountry"
-89-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:49:19-78
+89-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:48:19-78
 90            android:label="@string/dialog_asrt_country_title"
-90-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:49:123-172
+90-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:48:123-172
 91            android:screenOrientation="portrait"
-91-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:49:173-209
+91-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:48:173-209
 92            android:theme="@android:style/Theme.Dialog" />
-92-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:49:79-122
+92-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:48:79-122
 93        <activity
-93-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:50:9-173
+93-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:49:9-173
 94            android:name="md.statistica.ipc.ipcm_v01.DialogClearData"
-94-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:50:19-76
+94-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:49:19-76
 95            android:label="@string/dialog_clear_data_title"
-95-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:50:77-124
+95-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:49:77-124
 96            android:screenOrientation="portrait" />
-96-->C:\bancusoft\Android_projects\IPCm01\app\src\main\AndroidManifest.xml:50:125-161
+96-->C:\Users\VitalieBancu\StudioProjects\IPCm01\app\src\main\AndroidManifest.xml:49:125-161
 97    </application>
 98
 99</manifest>

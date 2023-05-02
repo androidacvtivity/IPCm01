@@ -20,8 +20,8 @@ public class MainLibrary
 	public final static String dateTimeFormat = "dd.MM.yyyy HH:mm:ss";
 	public final static String dateTimeFormatSQL = "yyyy-MM-dd HH:mm:ss";
 	
-	public final static String directoryImport = "/!IPC/Primirea datelor";		//???
-	public final static String directoryExport = "/!IPC/Expedierea datelor";	//???
+	public final static String directoryImport = "/IPC/Primirea datelor";		//???
+	public final static String directoryExport = "/IPC/Expedierea datelor";	//???
 	
 	//=================================== DIRECTORIES ROUTINES =====================================
 	//----------------------------------------------------------------------------------------------
